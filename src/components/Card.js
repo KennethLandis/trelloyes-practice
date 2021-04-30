@@ -1,9 +1,9 @@
 import React from 'react';
-import '/Card.css';
+import './Card.css';
 
 function Card(props) {
     return (
-        <div key={props.id}className="Card">
+        <div key={props.key} className="Card">
             <button type="button">delete</button>
             <h3>{props.title}</h3>
             <p>{props.content}</p>
